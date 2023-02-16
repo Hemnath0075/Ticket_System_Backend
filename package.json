@@ -1,0 +1,32 @@
+{
+  "name": "ticket_system_backend",
+  "version": "1.0.0",
+  "description": "Ticket Assigning System",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hemnath0075/Ticket_System_Backend.git"
+  },
+  "author": "Hemnath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hemnath0075/Ticket_System_Backend/issues"
+  },
+  "homepage": "https://github.com/Hemnath0075/Ticket_System_Backend#readme",
+  "dependencies": {
+    "@babel/cli": "^7.20.7",
+    "@babel/core": "^7.20.12",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1",
+    "nodemon": "^2.0.20"
+  }
+}
